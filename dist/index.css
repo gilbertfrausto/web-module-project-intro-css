@@ -1,0 +1,130 @@
+body {
+  width: 100%;
+  min-width: 900px;
+  font-family: "Roboto Mono", monospace;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+nav a {
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: flex;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+  max-width: 95px;
+  font-size: 14px;
+  font-weight: 300;
+  transition: all 0.3s linear;
+}
+nav a:hover {
+  box-shadow: 10px 10px 5px -6px rgba(87, 87, 87, 0.21);
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+nav ul li:nth-child(1) a {
+  background-color: #FF764E;
+}
+nav ul li:nth-child(2) a {
+  background-color: #5ED3EB;
+}
+nav ul li:nth-child(3) a {
+  background-color: #FFCD69;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.hero .hero-avatar {
+  height: 200px;
+  border-radius: 50%;
+}
+.hero .hero-heading {
+  text-align: center;
+}
+.hero .hero-heading h1 {
+  font-size: 40px;
+  font-family: "Chelsea Market", cursive;
+}
+.hero .hero-heading p:nth-child(2) {
+  padding: 10px 0;
+}
+.hero .hero-heading p:nth-child(3) {
+  margin: 0 auto;
+  max-width: 350px;
+}
+
+.content-1 {
+  margin: 40px 0;
+  background-color: #DDB9A3;
+  color: white;
+}
+.content-1 p {
+  font-weight: 300;
+  width: 85%;
+  max-width: 864px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.content-2 {
+  min-height: 539px;
+}
+.content-2 div {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  cursor: pointer;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.content-2 div img {
+  width: 100px;
+}
+.content-2 div p {
+  width: 300px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+footer {
+  bottom: 0;
+}
+footer .footer-bg {
+  height: 200px;
+  width: 100%;
+  background-image: url("../assets/footer_img.jpg");
+  background-position: 10% 16%;
+  background-size: cover;
+}
+footer nav {
+  background-color: #F9E7DC;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.bold {
+  font-weight: bold;
+}
